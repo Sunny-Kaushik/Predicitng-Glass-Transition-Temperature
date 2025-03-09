@@ -82,7 +82,7 @@ The following models were trained and evaluated for **Tg prediction**:
   journal={International Conference on Computational Sciences 2025},
   year={2025}
 }
-
+```
 ## 📩 Contact
 
 For any questions, feel free to reach out:
