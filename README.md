@@ -75,11 +75,19 @@ The following models were trained and evaluated for **Tg prediction**:
 - **Extra Trees**
 
 
+```bibtex
 @article{your_paper,
   title={Data-Driven Prediction of Glass Transition Temperature Using Molecular Structural Features},
   author={S. Kaushik et al.},
   journal={International Conference on Computational Sciences 2025},
   year={2025}
 }
+
+## 📩 Contact
+
+For any questions, feel free to reach out:
+
+- 📧 Email: [sunny.kaushik@iiitb.ac.in](mailto:sunny.kaushik@iiitb.ac.in)  
+- 🔗 LinkedIn: [Sunny Kaushik](https://www.linkedin.com/in/sunnyykaushik/)
 
 
