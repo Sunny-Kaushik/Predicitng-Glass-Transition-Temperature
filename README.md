@@ -30,6 +30,7 @@ Tg is the temperature at which a material transitions from a rigid, glassy state
 git clone https://github.com/your-username/Tg_Prediction.git
 cd Tg_Prediction
 
+```
 ### 2. Install dependencies
 pip install -r requirements.txt
 
@@ -56,7 +57,7 @@ pip install -r requirements.txt
 - Execute each section sequentially in Colab.  
 
 @article{your_paper,
-  title={Data-Driven Prediction of Glass Transition Temperature Using Molecular Structural Features.},
+  title={Data-Driven Prediction of Glass Transition Temperature Using Molecular Structural Features},
   author={S. Kaushik et al.},
   journal={International Conference on Computational Sciences 2025},
   year={2025}
