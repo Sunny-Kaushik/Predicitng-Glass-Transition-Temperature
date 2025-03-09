@@ -14,7 +14,7 @@ Tg is the temperature at which a material transitions from a rigid, glassy state
 ## Approach
 
 - **Feature Selection:** The study considers molecular descriptors like **branching, molecular weight, and functional group ratios** to predict Tg.
-- **Machine Learning Models:** The models tested include **Linear Regression, Random Forest, Gradient Boosting, XGBoost, and Symbolic Regression**.
+- **Machine Learning Models:** The models tested include Linear Regression, Random Forest, Gradient Boosting, XGBoost, and Symbolic Regression.
 - **Evaluation Metrics:** Performance is measured using **R² score** and **Mean Squared Error (MSE)**.
 
 ## Key Findings
@@ -55,6 +55,25 @@ pip install -r requirements.txt
 - Upload **`Glass_Transition.ipynb`** to Colab.  
 - Upload the dataset manually or mount Google Drive if storing the dataset there.  
 - Execute each section sequentially in Colab.  
+
+## 4. Project Overview
+This project aims to predict **Glass Transition Temperature (Tg)** based on molecular features such as **carbon count, hydroxyl groups, double bond equivalents (DBE), molecular weight, and branching**. Unlike traditional approaches relying on **Boyer-Beaman’s empirical rule** (`Tg/Tm = 0.7`), our method:
+
+- **Eliminates the dependency on melting point (Tm)**, which can be inconsistent.
+- **Uses branching as a key structural feature**, making Tg prediction more robust.
+- **Employs machine learning algorithms** to model the Tg values effectively.
+
+---
+
+## 5. Machine Learning Models Used
+The following models were trained and evaluated for **Tg prediction**:
+
+- **Linear Regression**
+- **Random Forest**
+- **Gradient Boosting**
+- **XGBoost**
+- **Extra Trees**
+
 
 @article{your_paper,
   title={Data-Driven Prediction of Glass Transition Temperature Using Molecular Structural Features},
